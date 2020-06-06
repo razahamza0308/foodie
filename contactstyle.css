@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+
+h1{
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    font-family: cursive !important;
+}
+
+.menu-bar{
+    min-height: 8%;
+    background: #ff9800;
+}
+
+.navbar-brand{
+    font-family: cursive;
+    font-weight: bolder;
+    color: ivory;
+}
+
+.navbar-brand:hover{
+    color: #000;
+    
+}
+
+
+
+.nav-link{
+    color: ivory;
+    font-weight: 100;
+    font-family: cursive;
+}
+
+.nav-link:hover{
+    color: #000;
+}
+
+.active{
+    color: #000 !important ;
+}
+
+.navbar-toggler .fa{
+    color: ivory;
+
+} 
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+
+.log3{
+    width: 80px !important;
+}
+
+.log3:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+  
+  }
+  .get-in-touch .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
+    background-color:#666;
+    color: #F63;
+      background: #f63;
+      background: -moz-linear-gradient(left,#f4524d  0%,#F63 100%) !important;
+      background: -webkit-linear-gradient(left,#f4524d  0%,#F63 100%) !important;
+      background: linear-gradient(to right,#f4524d  0%,#F63 100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+  
+  .contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+  }
+  .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #F63;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .contact-form .input-text:focus {
+    outline: none;
+  }
+  .contact-form .input-text:focus + .label,
+  .contact-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+  }
+  .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #F63;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+     background-image: linear-gradient(125deg,#F63,#F90);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width:200px;
+    cursor: pointer;
+  }
+  
+.OK1{
+    text-align: center !important;
+
+}
+
+  .OK1 :hover{
+      background: linear-gradient(#ff9800,#ff454f) !important;
+      color: #000;
+      
+  }
+  
+
+
+
+
+
+
+  
+.footer-widget{
+    min-height: 15%;
+    background-image: linear-gradient(to right, #ff9800, #a46406);
+    padding: 21px 0  0;
+    display: inline-flex;
+    color: #fff;
+    font-family: cursive;
+}
+
+.footer-text{
+    padding-left: 25px;
+}
+
+.footer-widget .fa{
+    font-size: 30px;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+@media only screen and (max-width: 960px)
+{
+    .footer-widget
+    {
+        background-image: linear-gradient(#ff9800, #a46406);
+    }
+}
+  
+
+
+
+
+
+
+
+body{
+}
+
+.okok{
+    background: #ff9800;
+}
+
+h4{
+    font-family:  cursive;
+    font-weight: normal;
+    font-size: 15px !important;
+    letter-spacing: 1px;
+    padding: 30px 0 05px;
+    color: #fff;
+    text-align: center;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 20%;
+    letter-spacing: 40px;
+    padding-bottom: 30px;
+    
+}
+
+a .sci{
+    display: flex;
+    background: #e3edf7;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+               -6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,0.0);
+    transition: transform 0.5s;
+}
+
+a  i{
+
+    font-size: 35px;
+    color: #fff;
+transition: transform 0.5s;
+}
+
+a :hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+              inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                    -0.5px -0.5px 0px  rgba(255,255,255,1),
+                     0.5px  0.5px 0px  rgba(0,0,0,0.15),
+                     0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.01);                  
+
+    transform: translateY(2px);
+}
+
+a:hover i{
+    transform: scale(0.90);
+}
+
+a:hover .fa-facebook{
+    color: #3b5998;
+    
+}
+
+a:hover .fa-whatsapp{
+    color: #4fce5d;
+}
+
+a:hover .fa-twitter{
+    color: #00acee;
+}
+
+a:hover .fa-instagram{
+    color: #f14843;
+}
+
+a:hover .fa-youtube{
+    color: #f00;
+}
+
+
+
+ .fa-facebook{
+    color: #3b5998 !important;
+    border-radius: 20px  !important;
+}
+
+.fa-whatsapp{
+    color: #4fce5d!important;
+    border-radius: 20px  !important;
+}
+
+.fa-twitter{
+    color: #00acee !important;
+    border-radius: 20px  !important;
+}
+
+
+.fa-instagram{
+    color: #f14843 !important;
+    border-radius: 20px  !important;
+}
+
+
+
+.ok1{
+    font-family: cursive;
+    color: #fff;
+    padding: 30px ;
+    padding-right: 50px;
+
+}
+
+@media only screen and (max-width: 960px)
+{
+    .ok1
+    {
+        background-image: linear-gradient(#ff9800, #a46406);
+    }
+}
+  
+
+
+.okok{
+    background-image: linear-gradient(to right, #ff9800, #a46406);
+
+}
+
+
+@media only screen and (max-width: 960px)
+{
+    .okok
+    {
+        background-image: linear-gradient(#ff9800, #a46406);
+    }
+}
+  
+
+.footer{
+    background: lightslategray;
+    font-family: verdana;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+
+}
